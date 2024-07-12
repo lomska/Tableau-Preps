@@ -1,0 +1,94 @@
+digraph avocado_trade {
+    graph [
+    layout = fdp
+    splines=curved
+    ]
+ 
+    node [
+    shape = circle
+    fixedsize = True
+    style = filled
+    color = "#00000055" 
+    ]
+ 
+    edge [
+    len=50
+    ]
+ 
+    MX -> CA [region="Americas"]
+    US -> CA [region="Americas"]
+    CL -> CN [region="Americas"]
+    MX -> CL [region="Americas"]
+    PE -> CL [region="Americas"]
+    CL -> GB [region="Americas"]
+    PE -> CN [region="Americas"]
+    PE -> CO [region="Americas"]
+    CO -> GB [region="Americas"]
+    FR -> IT [region="Europe"]
+    NL -> FR [region="Europe"]
+    ES -> FR [region="Europe"]
+    NL -> DE [region="Europe"]
+    PE -> DE [region="Americas"]
+    IL -> RU [region="Asia"]
+    ZA -> IL [region="Africa"]
+    IL -> GB [region="Asia"]
+    NL -> IT [region="Europe"]
+    MX -> JP [region="Americas"]
+    PE -> JP [region="Americas"]
+    KE -> MA [region="Africa"]
+    KE -> ZA [region="Africa"]
+    KE -> GB [region="Africa"]
+    MX -> GB [region="Americas"]
+    MX -> US [region="Americas"]
+    ES -> MA [region="Europe"]
+    PE -> NL [region="Americas"]
+    NL -> PL [region="Europe"]
+    NL -> RU [region="Europe"]
+    ZA -> NL [region="Africa"]
+    PE -> PL [region="Americas"]
+    PE -> ES [region="Americas"]
+    GB -> PE [region="Europe"]
+    PE -> US [region="Americas"]
+    ZA -> ES [region="Africa"]
+ 
+    US [width=2.185, label="USA", size=60.0, region="Americas",
+    color="#7c6195"]
+    MX [width=2.052, label="Mexico", size=52.922, region="Americas",
+    color="#7c6195"]
+    NL [width=1.827, label="Netherlands", size=41.96, region="Europe",
+    color="#099dd4"]
+    PE [width=1.48, label="Peru", size=27.513, region="Americas",
+    color="#7c6195"]
+    ES [width=1.202, label="Spain", size=18.146, region="Europe",
+    color="#099dd4"]
+    FR [width=1.008, label="France", size=12.763, region="Europe",
+    color="#099dd4"]
+    DE [width=0.93, label="Germany", size=10.872, region="Europe",
+    color="#099dd4"]
+    CL [width=0.712, label="Chile", size=6.362, region="Americas",
+    color="#7c6195"]
+    CA [width=0.691, label="Canada", size=6.006, region="Americas",
+    color="#7c6195"]
+    GB [width=0.674, label="UK", size=5.712, region="Europe",
+    color="#099dd4"]
+    IL [width=0.622, label="Israel", size=4.868, region="Asia", 
+    color="#f4ba1a"]
+    MA [width=0.573, label="Morocco", size=4.121, region="Africa", 
+    color="#a71627"]
+    CO [width=0.549, label="Colombia", size=3.794, region="Americas", 
+    color="#7c6195"]
+    JP [width=0.487, label="Japan", size=2.986, region="Asia",
+    color="#f4ba1a"]
+    ZA [width=0.476, label="South Africa", size=2.848, region="Africa",
+    color="#a71627"]
+    CN [width=0.474, label="China", size=2.821, region="Asia", 
+    color="#f4ba1a"]
+    IT [width=0.468, label="Italy", size=2.75, region="Europe", 
+    color="#099dd4"]
+    PL [width=0.458, label="Poland", size=2.637, region="Europe", 
+    color="#099dd4"]
+    KE [width=0.457, label="Kenya", size=2.63, region="Africa",
+    color="#a71627"]
+    RU [width=0.43, label="Russia", size=2.335, region="Europe", 
+    color="#099dd4"]
+}

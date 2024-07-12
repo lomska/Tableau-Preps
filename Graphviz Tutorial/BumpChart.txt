@@ -1,0 +1,141 @@
+strict graph university_ranking
+{
+    graph [
+    layout=dot
+    splines=false
+    ]
+    
+    // "AXIS" NODES ATTRIBUTES
+    { node [
+    shape=plaintext
+    width=0.5
+    fixedsize=true
+    fontname="Courier New"
+    fontsize=20
+    color="#ffffff00"
+    ]
+    
+    "2011" "2012" "2013" "2014" "2015" "2016"
+    Harvard Caltech MIT Stanford Princeton Oxford Cambridge 
+    Caltech1 Oxford1 Stanford1 Cambridge1 MIT1 Harvard1
+    Princeton1 
+    }
+    
+    // RENAMING 2021 NODES
+    
+    Oxford1 [label="Oxford"]
+    Stanford1 [label="Stanford"]
+    Harvard1 [label="Harvard"]
+    Caltech1 [label="Caltech"]
+    MIT1 [label="MIT"]
+    Cambridge1 [label="Cambridge"]
+    Princeton1 [label="Princeton"]
+    
+    // MATRIX NODES
+    node [
+    shape=circle 
+    fixedsize=true 
+    width=0.3 
+    label="" 
+    style="filled" 
+    axis="none"
+    ]
+    
+    // Assigning colors to groups of nodes
+    { node [color="#f9414477"]
+      Y11_01 Y12_02 Y13_04 Y14_03 Y15_02 Y16_06
+    }
+    { node [color="#f3722c77"]
+      Y11_02 Y12_01 Y13_01 Y14_01 Y15_01 Y16_01
+    }
+    { node [color="#f8961e77"]
+      Y11_03 Y12_07 Y13_05 Y14_05 Y15_06 Y16_05
+    }
+    { node [color="#f9c74f77"]
+      Y11_04 Y12_03 Y13_03 Y14_04 Y15_04 Y16_03
+    }
+    { node [color="#90be6d77"]
+      Y11_05 Y12_05 Y13_06 Y14_06 Y15_07 Y16_07
+    }
+    { node [color="#43aa8b77"]
+      Y11_06 Y12_04 Y13_02 Y14_02 Y15_03 Y16_02
+    }
+    { node [color="#57759077"]
+      Y11_07 Y12_06 Y13_07 Y14_07 Y15_05 Y16_04
+    }
+    
+    // MATRIX EDGES
+    
+    edge [
+    weight=1000 
+    style=invis
+    ]
+    
+    // COLUMNS
+    Harvard -- Caltech -- MIT -- Stanford -- Princeton --
+    Oxford -- Cambridge
+    "2011" -- Y11_01 -- Y11_02 -- Y11_03 -- Y11_04 -- Y11_05
+    -- Y11_06 -- Y11_07
+    "2012" -- Y12_01 -- Y12_02 -- Y12_03 -- Y12_04 -- Y12_05
+    -- Y12_06 -- Y12_07
+    "2013" -- Y13_01 -- Y13_02 -- Y13_03 -- Y13_04 -- Y13_05
+    -- Y13_06 -- Y13_07
+    "2014" -- Y14_01 -- Y14_02 -- Y14_03 -- Y14_04 -- Y14_05
+    -- Y14_06 -- Y14_07
+    "2015" -- Y15_01 -- Y15_02 -- Y15_03 -- Y15_04 -- Y15_05
+    -- Y15_06 -- Y15_07
+    "2016" -- Y16_01 -- Y16_02 -- Y16_03 -- Y16_04 -- Y16_05
+    -- Y16_06 -- Y16_07
+    Caltech1 -- Oxford1 -- Stanford1 -- Cambridge1 -- MIT1 --
+    Harvard1 -- Princeton1
+    
+    // ROWS
+    edge [minlen=3]
+    rank=same {Harvard -- Y11_01 -- Y12_01 -- Y13_01 -- 
+    Y14_01 -- Y15_01 -- Y16_01 -- Caltech1}
+    rank=same {Caltech -- Y11_02 -- Y12_02 -- Y13_02 -- 
+    Y14_02 -- Y15_02 -- Y16_02 -- Oxford1}
+    rank=same {MIT -- Y11_03 -- Y12_03 -- Y13_03 -- 
+    Y14_03 -- Y15_03 -- Y16_03 -- Stanford1}
+    rank=same {Stanford -- Y11_04 -- Y12_04 -- Y13_04 -- 
+    Y14_04 -- Y15_04 -- Y16_04 -- Cambridge1}
+    rank=same {Princeton -- Y11_05 -- Y12_05 -- Y13_05 -- 
+    Y14_05 -- Y15_05 -- Y16_05 -- MIT1}
+    rank=same {Oxford -- Y11_06 -- Y12_06 -- Y13_06 -- 
+    Y14_06 -- Y15_06 -- Y16_06 -- Harvard1}
+    rank=same {Cambridge -- Y11_07 -- Y12_07 -- Y13_07 -- 
+    Y14_07 -- Y15_07 -- Y16_07 -- Princeton1}
+    
+    // ARBITRARY PATH EDGES
+    
+    edge [
+    constraint=false
+    style=""
+    dir=none 
+    penwidth=2
+    color="#00000055"
+    ]
+    
+    // Harvard
+    Y11_01 -- Y12_02 -- Y13_04 -- Y14_03 -- Y15_02 -- Y16_06
+    [color="#f94144" uni="Harvard"]
+    // Caltech
+    Y11_02 -- Y12_01 -- Y13_01 -- Y14_01 -- Y15_01 -- Y16_01
+    [color="#f3722c" uni="Caltech"]
+    // MIT
+    Y11_03 -- Y12_07 -- Y13_05 -- Y14_05 -- Y15_06 -- Y16_05
+    [color="#f8961e" uni="MIT"]
+    // Stanford
+    Y11_04 -- Y12_03 -- Y13_03 -- Y14_04 -- Y15_04 -- Y16_03
+    [color="#f9c74f" uni="Stanford"]
+    // Princeton
+    Y11_05 -- Y12_05 -- Y13_06 -- Y14_06 -- Y15_07 -- Y16_07
+    [color="#90be6d" uni="Princeton"]
+    // Oxford
+    Y11_06 -- Y12_04 -- Y13_02 -- Y14_02 -- Y15_03 -- Y16_02
+    [color="#43aa8b" uni="Oxford"]
+    // Cambridge
+    Y11_07 -- Y12_06 -- Y13_07 -- Y14_07 -- Y15_05 -- Y16_04
+    [color="#577590" uni="Cambridge"]
+    
+}

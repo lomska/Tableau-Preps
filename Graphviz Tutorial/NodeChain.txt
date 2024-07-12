@@ -1,0 +1,47 @@
+graph node_chain {
+          graph [
+          layout = dot
+          rankdir="LR"
+          ]
+          
+          node [
+          shape = circle
+          fixedsize = True
+          style = filled
+          fontsize=40
+          color = "#00000055" 
+          ]
+          
+          edge [
+          minlen = 1
+          ]
+          
+          "Australia" -- "Belgium" -- "Denmark" -- "France" -- 
+          "Germany" -- "Hong Kong" -- "Ireland" -- "Italy" -- 
+          "Japan" -- "Netherlands" -- "New Zealand" -- 
+          "Norway" -- "Qatar" -- "Saudi Arabia" -- "India" -- 
+          "Spain" -- "Sweden" -- "Switzerland" -- "UAE" -- 
+          "UK" -- "USA" [style=invis]
+          
+          "Australia" [width=2.79 color="#09418e"]
+          "Belgium" [width=2.27 color="#099dd4"]
+          "Denmark" [width=2.12 color="#099dd4"]
+          "France" [width=4.46 color="#099dd4"]
+          "Germany" [width=1.97 color="#099dd4"]
+          "Hong Kong" [width=2.04 color="#f4ba1a"]
+          "Ireland" [width=6.56 color="#099dd4"]
+          "Italy" [width=0.99 color="#099dd4"]
+          "Japan" [width=2.86 color="#f4ba1a"]
+          "Netherlands" [width=2.8 color="#099dd4"]
+          "New Zealand" [width=0.58 color="#09418e"]
+          "Norway" [width=0.44 color="#099dd4"]
+          "Qatar" [width=0.44 color="#f4ba1a"]
+          "Saudi Arabia" [width=1.21 color="#f4ba1a"]
+          "India" [width=0.44 color="#f4ba1a"]
+          "Spain" [width=0.97 color="#099dd4"]
+          "Sweden" [width=1.28 color="#099dd4"]
+          "Switzerland" [width=0.87 color="#099dd4"]
+          "UAE" [width=0.56 color="#f4ba1a"]
+          "UK" [width=8.74 color="#099dd4"]
+          "USA" [width=4.69 color="#7c6195"]
+}

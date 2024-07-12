@@ -1,0 +1,2486 @@
+{
+  "name": "avocado_trade",
+  "directed": "true",
+  "strict": "false",
+  "_draw_": 
+  [
+    {
+      "op": "c",
+      "grad": "none",
+      "color": "#fffffe00"
+    },
+    {
+      "op": "C",
+      "grad": "none",
+      "color": "#ffffff"
+    },
+    {
+      "op": "P",
+      "points": [[0.000,0.000],[0.000,916.000],[545.000,916.000],[545.000,0.000]]
+    }
+  ],
+  "bb": "0,0,545,916",
+  "layout": "fdp",
+  "splines": "curved",
+  "xdotversion": "1.7",
+  "_subgraph_cnt": 0,
+  "objects": [
+    {
+      "_gvid": 0,
+      "name": "MX",
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#7c6195"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#7c6195"
+        },
+        {
+          "op": "E",
+          "rect": [359.540,686.480,74.000,74.000]
+        }
+      ],
+      "_ldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [359.540,682.280],
+          "align": "c",
+          "width": 42.760,
+          "text": "Mexico"
+        }
+      ],
+      "color": "#7c6195",
+      "fixedsize": "True",
+      "height": "2.0556",
+      "label": "Mexico",
+      "pos": "359.54,686.48",
+      "region": "Americas",
+      "shape": "circle",
+      "size": "52.922",
+      "style": "filled",
+      "width": "2.0556"
+    },
+    {
+      "_gvid": 1,
+      "name": "CA",
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#7c6195"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#7c6195"
+        },
+        {
+          "op": "E",
+          "rect": [400.080,891.100,25.000,25.000]
+        }
+      ],
+      "_ldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [400.080,886.900],
+          "align": "c",
+          "width": 41.980,
+          "text": "Canada"
+        }
+      ],
+      "color": "#7c6195",
+      "fixedsize": "True",
+      "height": "0.69444",
+      "label": "Canada",
+      "pos": "400.08,891.1",
+      "region": "Americas",
+      "shape": "circle",
+      "size": "6.006",
+      "style": "filled",
+      "width": "0.69444"
+    },
+    {
+      "_gvid": 2,
+      "name": "US",
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#7c6195"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#7c6195"
+        },
+        {
+          "op": "E",
+          "rect": [192.470,783.970,78.500,78.500]
+        }
+      ],
+      "_ldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [192.470,779.770],
+          "align": "c",
+          "width": 28.000,
+          "text": "USA"
+        }
+      ],
+      "color": "#7c6195",
+      "fixedsize": "True",
+      "height": "2.1806",
+      "label": "USA",
+      "pos": "192.47,783.97",
+      "region": "Americas",
+      "shape": "circle",
+      "size": "60.0",
+      "style": "filled",
+      "width": "2.1806"
+    },
+    {
+      "_gvid": 3,
+      "name": "CL",
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#7c6195"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#7c6195"
+        },
+        {
+          "op": "E",
+          "rect": [195.490,550.490,25.500,25.500]
+        }
+      ],
+      "_ldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [195.490,546.290],
+          "align": "c",
+          "width": 30.330,
+          "text": "Chile"
+        }
+      ],
+      "color": "#7c6195",
+      "fixedsize": "True",
+      "height": "0.70833",
+      "label": "Chile",
+      "pos": "195.49,550.49",
+      "region": "Americas",
+      "shape": "circle",
+      "size": "6.362",
+      "style": "filled",
+      "width": "0.70833"
+    },
+    {
+      "_gvid": 4,
+      "name": "CN",
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#f4ba1a"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#f4ba1a"
+        },
+        {
+          "op": "E",
+          "rect": [45.990,569.060,17.000,17.000]
+        }
+      ],
+      "_ldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [45.990,564.860],
+          "align": "c",
+          "width": 33.440,
+          "text": "China"
+        }
+      ],
+      "color": "#f4ba1a",
+      "fixedsize": "True",
+      "height": "0.47222",
+      "label": "China",
+      "pos": "45.99,569.06",
+      "region": "Asia",
+      "shape": "circle",
+      "size": "2.821",
+      "style": "filled",
+      "width": "0.47222"
+    },
+    {
+      "_gvid": 5,
+      "name": "PE",
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#7c6195"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#7c6195"
+        },
+        {
+          "op": "E",
+          "rect": [164.150,459.670,53.500,53.500]
+        }
+      ],
+      "_ldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [164.150,455.470],
+          "align": "c",
+          "width": 25.660,
+          "text": "Peru"
+        }
+      ],
+      "color": "#7c6195",
+      "fixedsize": "True",
+      "height": "1.4861",
+      "label": "Peru",
+      "pos": "164.15,459.67",
+      "region": "Americas",
+      "shape": "circle",
+      "size": "27.513",
+      "style": "filled",
+      "width": "1.4861"
+    },
+    {
+      "_gvid": 6,
+      "name": "GB",
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#099dd4"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#099dd4"
+        },
+        {
+          "op": "E",
+          "rect": [346.280,473.080,24.500,24.500]
+        }
+      ],
+      "_ldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [346.280,468.880],
+          "align": "c",
+          "width": 20.210,
+          "text": "UK"
+        }
+      ],
+      "color": "#099dd4",
+      "fixedsize": "True",
+      "height": "0.68056",
+      "label": "UK",
+      "pos": "346.28,473.08",
+      "region": "Europe",
+      "shape": "circle",
+      "size": "5.712",
+      "style": "filled",
+      "width": "0.68056"
+    },
+    {
+      "_gvid": 7,
+      "name": "CO",
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#7c6195"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#7c6195"
+        },
+        {
+          "op": "E",
+          "rect": [293.930,570.270,20.000,20.000]
+        }
+      ],
+      "_ldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [293.930,566.070],
+          "align": "c",
+          "width": 55.220,
+          "text": "Colombia"
+        }
+      ],
+      "color": "#7c6195",
+      "fixedsize": "True",
+      "height": "0.55556",
+      "label": "Colombia",
+      "pos": "293.93,570.27",
+      "region": "Americas",
+      "shape": "circle",
+      "size": "3.794",
+      "style": "filled",
+      "width": "0.55556"
+    },
+    {
+      "_gvid": 8,
+      "name": "FR",
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#099dd4"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#099dd4"
+        },
+        {
+          "op": "E",
+          "rect": [294.670,36.760,36.500,36.500]
+        }
+      ],
+      "_ldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [294.670,32.560],
+          "align": "c",
+          "width": 38.090,
+          "text": "France"
+        }
+      ],
+      "color": "#099dd4",
+      "fixedsize": "True",
+      "height": "1.0139",
+      "label": "France",
+      "pos": "294.67,36.761",
+      "region": "Europe",
+      "shape": "circle",
+      "size": "12.763",
+      "style": "filled",
+      "width": "1.0139"
+    },
+    {
+      "_gvid": 9,
+      "name": "IT",
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#099dd4"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#099dd4"
+        },
+        {
+          "op": "E",
+          "rect": [385.500,91.980,17.000,17.000]
+        }
+      ],
+      "_ldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [385.500,87.780],
+          "align": "c",
+          "width": 25.660,
+          "text": "Italy"
+        }
+      ],
+      "color": "#099dd4",
+      "fixedsize": "True",
+      "height": "0.47222",
+      "label": "Italy",
+      "pos": "385.5,91.981",
+      "region": "Europe",
+      "shape": "circle",
+      "size": "2.75",
+      "style": "filled",
+      "width": "0.47222"
+    },
+    {
+      "_gvid": 10,
+      "name": "NL",
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#099dd4"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#099dd4"
+        },
+        {
+          "op": "E",
+          "rect": [223.900,238.080,66.000,66.000]
+        }
+      ],
+      "_ldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [223.900,233.880],
+          "align": "c",
+          "width": 67.640,
+          "text": "Netherlands"
+        }
+      ],
+      "color": "#099dd4",
+      "fixedsize": "True",
+      "height": "1.8333",
+      "label": "Netherlands",
+      "pos": "223.9,238.08",
+      "region": "Europe",
+      "shape": "circle",
+      "size": "41.96",
+      "style": "filled",
+      "width": "1.8333"
+    },
+    {
+      "_gvid": 11,
+      "name": "ES",
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#099dd4"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#099dd4"
+        },
+        {
+          "op": "E",
+          "rect": [353.170,241.040,43.500,43.500]
+        }
+      ],
+      "_ldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [353.170,236.840],
+          "align": "c",
+          "width": 31.890,
+          "text": "Spain"
+        }
+      ],
+      "color": "#099dd4",
+      "fixedsize": "True",
+      "height": "1.2083",
+      "label": "Spain",
+      "pos": "353.17,241.04",
+      "region": "Europe",
+      "shape": "circle",
+      "size": "18.146",
+      "style": "filled",
+      "width": "1.2083"
+    },
+    {
+      "_gvid": 12,
+      "name": "DE",
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#099dd4"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#099dd4"
+        },
+        {
+          "op": "E",
+          "rect": [33.340,263.050,33.500,33.500]
+        }
+      ],
+      "_ldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [33.340,258.850],
+          "align": "c",
+          "width": 52.090,
+          "text": "Germany"
+        }
+      ],
+      "color": "#099dd4",
+      "fixedsize": "True",
+      "height": "0.93056",
+      "label": "Germany",
+      "pos": "33.337,263.05",
+      "region": "Europe",
+      "shape": "circle",
+      "size": "10.872",
+      "style": "filled",
+      "width": "0.93056"
+    },
+    {
+      "_gvid": 13,
+      "name": "IL",
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#f4ba1a"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#f4ba1a"
+        },
+        {
+          "op": "E",
+          "rect": [486.080,411.450,22.500,22.500]
+        }
+      ],
+      "_ldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [486.080,407.250],
+          "align": "c",
+          "width": 31.090,
+          "text": "Israel"
+        }
+      ],
+      "color": "#f4ba1a",
+      "fixedsize": "True",
+      "height": "0.625",
+      "label": "Israel",
+      "pos": "486.08,411.45",
+      "region": "Asia",
+      "shape": "circle",
+      "size": "4.868",
+      "style": "filled",
+      "width": "0.625"
+    },
+    {
+      "_gvid": 14,
+      "name": "RU",
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#099dd4"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#099dd4"
+        },
+        {
+          "op": "E",
+          "rect": [376.980,350.800,15.500,15.500]
+        }
+      ],
+      "_ldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [376.980,346.600],
+          "align": "c",
+          "width": 37.330,
+          "text": "Russia"
+        }
+      ],
+      "color": "#099dd4",
+      "fixedsize": "True",
+      "height": "0.43056",
+      "label": "Russia",
+      "pos": "376.98,350.8",
+      "region": "Europe",
+      "shape": "circle",
+      "size": "2.335",
+      "style": "filled",
+      "width": "0.43056"
+    },
+    {
+      "_gvid": 15,
+      "name": "ZA",
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#a71627"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#a71627"
+        },
+        {
+          "op": "E",
+          "rect": [457.630,276.920,17.000,17.000]
+        }
+      ],
+      "_ldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [457.630,272.720],
+          "align": "c",
+          "width": 71.920,
+          "text": "South Africa"
+        }
+      ],
+      "color": "#a71627",
+      "fixedsize": "True",
+      "height": "0.47222",
+      "label": "South Africa",
+      "pos": "457.63,276.92",
+      "region": "Africa",
+      "shape": "circle",
+      "size": "2.848",
+      "style": "filled",
+      "width": "0.47222"
+    },
+    {
+      "_gvid": 16,
+      "name": "JP",
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#f4ba1a"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#f4ba1a"
+        },
+        {
+          "op": "E",
+          "rect": [141.950,650.220,17.500,17.500]
+        }
+      ],
+      "_ldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [141.950,646.020],
+          "align": "c",
+          "width": 31.870,
+          "text": "Japan"
+        }
+      ],
+      "color": "#f4ba1a",
+      "fixedsize": "True",
+      "height": "0.48611",
+      "label": "Japan",
+      "pos": "141.95,650.22",
+      "region": "Asia",
+      "shape": "circle",
+      "size": "2.986",
+      "style": "filled",
+      "width": "0.48611"
+    },
+    {
+      "_gvid": 17,
+      "name": "KE",
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#a71627"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#a71627"
+        },
+        {
+          "op": "E",
+          "rect": [467.190,346.090,16.500,16.500]
+        }
+      ],
+      "_ldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [467.190,341.890],
+          "align": "c",
+          "width": 36.540,
+          "text": "Kenya"
+        }
+      ],
+      "color": "#a71627",
+      "fixedsize": "True",
+      "height": "0.45833",
+      "label": "Kenya",
+      "pos": "467.19,346.09",
+      "region": "Africa",
+      "shape": "circle",
+      "size": "2.63",
+      "style": "filled",
+      "width": "0.45833"
+    },
+    {
+      "_gvid": 18,
+      "name": "MA",
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#a71627"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#a71627"
+        },
+        {
+          "op": "E",
+          "rect": [524.030,224.300,20.500,20.500]
+        }
+      ],
+      "_ldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [524.030,220.100],
+          "align": "c",
+          "width": 50.530,
+          "text": "Morocco"
+        }
+      ],
+      "color": "#a71627",
+      "fixedsize": "True",
+      "height": "0.56944",
+      "label": "Morocco",
+      "pos": "524.03,224.3",
+      "region": "Africa",
+      "shape": "circle",
+      "size": "4.121",
+      "style": "filled",
+      "width": "0.56944"
+    },
+    {
+      "_gvid": 19,
+      "name": "PL",
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#099dd4"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#099dd4"
+        },
+        {
+          "op": "E",
+          "rect": [19.180,331.140,16.500,16.500]
+        }
+      ],
+      "_ldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [19.180,326.940],
+          "align": "c",
+          "width": 38.890,
+          "text": "Poland"
+        }
+      ],
+      "color": "#099dd4",
+      "fixedsize": "True",
+      "height": "0.45833",
+      "label": "Poland",
+      "pos": "19.176,331.14",
+      "region": "Europe",
+      "shape": "circle",
+      "size": "2.637",
+      "style": "filled",
+      "width": "0.45833"
+    }
+  ],
+  "edges": [
+    {
+      "_gvid": 0,
+      "tail": 0,
+      "head": 1,
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[376.350,758.770],[388.290,810.710],[392.300,830.730],[395.770,856.160]]
+        }
+      ],
+      "_hdraw_": 
+      [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "P",
+          "points": [[392.320,856.790],[397.090,866.250],[399.270,855.880]]
+        }
+      ],
+      "len": "50",
+      "pos": "e,397.09,866.25 376.35,758.77 388.29,810.71 392.3,830.73 395.77,856.16",
+      "region": "Americas"
+    },
+    {
+      "_gvid": 1,
+      "tail": 0,
+      "head": 2,
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[307.810,739.470],[296.680,749.980],[287.410,757.520],[278.230,763.130]]
+        }
+      ],
+      "_hdraw_": 
+      [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "P",
+          "points": [[276.510,760.080],[269.400,767.950],[279.860,766.230]]
+        }
+      ],
+      "len": "50",
+      "pos": "e,269.4,767.95 307.81,739.47 296.68,749.98 287.41,757.52 278.23,763.13",
+      "region": "Americas"
+    },
+    {
+      "_gvid": 2,
+      "tail": 0,
+      "head": 3,
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[290.640,659.300],[269.400,645.760],[251.850,624.820],[217.250,579.290]]
+        }
+      ],
+      "_hdraw_": 
+      [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "P",
+          "points": [[219.900,576.990],[211.070,571.130],[214.320,581.220]]
+        }
+      ],
+      "len": "50",
+      "pos": "e,211.07,571.13 290.64,659.3 269.4,645.76 251.85,624.82 217.25,579.29",
+      "region": "Americas"
+    },
+    {
+      "_gvid": 3,
+      "tail": 0,
+      "head": 6,
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[370.880,613.240],[370.290,590.170],[364.920,561.610],[353.550,507.430]]
+        }
+      ],
+      "_hdraw_": 
+      [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "P",
+          "points": [[356.920,506.450],[351.430,497.390],[350.070,507.890]]
+        }
+      ],
+      "len": "50",
+      "pos": "e,351.43,497.39 370.88,613.24 370.29,590.17 364.92,561.61 353.55,507.43",
+      "region": "Americas"
+    },
+    {
+      "_gvid": 4,
+      "tail": 0,
+      "head": 16,
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[286.760,701.190],[243.720,706.750],[222.410,697.630],[165.690,664.300]]
+        }
+      ],
+      "_hdraw_": 
+      [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "P",
+          "points": [[167.450,661.270],[157.060,659.200],[163.900,667.300]]
+        }
+      ],
+      "len": "50",
+      "pos": "e,157.06,659.2 286.76,701.19 243.72,706.75 222.41,697.63 165.69,664.3",
+      "region": "Americas"
+    },
+    {
+      "_gvid": 5,
+      "tail": 2,
+      "head": 1,
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[250.590,837.530],[295.120,876.500],[314.810,883.980],[364.850,888.470]]
+        }
+      ],
+      "_hdraw_": 
+      [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "P",
+          "points": [[364.670,891.960],[374.920,889.300],[365.250,884.990]]
+        }
+      ],
+      "len": "50",
+      "pos": "e,374.92,889.3 250.59,837.53 295.12,876.5 314.81,883.98 364.85,888.47",
+      "region": "Americas"
+    },
+    {
+      "_gvid": 6,
+      "tail": 3,
+      "head": 4,
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[170.420,557.020],[113.420,571.790],[97.280,575.000],[73.090,572.710]]
+        }
+      ],
+      "_hdraw_": 
+      [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "P",
+          "points": [[73.260,569.210],[62.920,571.530],[72.450,576.160]]
+        }
+      ],
+      "len": "50",
+      "pos": "e,62.92,571.53 170.42,557.02 113.42,571.79 97.284,575 73.093,572.71",
+      "region": "Americas"
+    },
+    {
+      "_gvid": 7,
+      "tail": 3,
+      "head": 6,
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[221.200,548.670],[264.010,545.030],[276.520,538.460],[320.970,497.000]]
+        }
+      ],
+      "_hdraw_": 
+      [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "P",
+          "points": [[323.490,499.440],[328.380,490.040],[318.700,494.330]]
+        }
+      ],
+      "len": "50",
+      "pos": "e,328.38,490.04 221.2,548.67 264.01,545.03 276.52,538.46 320.97,497",
+      "region": "Americas"
+    },
+    {
+      "_gvid": 8,
+      "tail": 5,
+      "head": 2,
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[159.730,512.990],[151.170,618.330],[149.550,660.310],[160.350,701.490]]
+        }
+      ],
+      "_hdraw_": 
+      [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "P",
+          "points": [[156.990,702.480],[163.100,711.130],[163.720,700.550]]
+        }
+      ],
+      "len": "50",
+      "pos": "e,163.1,711.13 159.73,512.99 151.17,618.33 149.55,660.31 160.35,701.49",
+      "region": "Americas"
+    },
+    {
+      "_gvid": 9,
+      "tail": 5,
+      "head": 3,
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[167.550,513.190],[168.840,516.510],[170.520,519.690],[172.700,523.020]]
+        }
+      ],
+      "_hdraw_": 
+      [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "P",
+          "points": [[169.990,525.240],[178.740,531.210],[175.620,521.080]]
+        }
+      ],
+      "len": "50",
+      "pos": "e,178.74,531.21 167.55,513.19 168.84,516.51 170.52,519.69 172.7,523.02",
+      "region": "Americas"
+    },
+    {
+      "_gvid": 10,
+      "tail": 5,
+      "head": 4,
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[120.680,491.370],[85.640,517.330],[74.100,527.900],[61.120,546.180]]
+        }
+      ],
+      "_hdraw_": 
+      [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "P",
+          "points": [[58.150,544.330],[55.400,554.560],[63.930,548.280]]
+        }
+      ],
+      "len": "50",
+      "pos": "e,55.402,554.56 120.68,491.37 85.64,517.33 74.102,527.9 61.125,546.18",
+      "region": "Americas"
+    },
+    {
+      "_gvid": 11,
+      "tail": 5,
+      "head": 7,
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[190.340,506.620],[209.500,537.480],[223.580,546.260],[265.080,560.620]]
+        }
+      ],
+      "_hdraw_": 
+      [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "P",
+          "points": [[264.070,563.980],[274.660,563.890],[266.330,557.350]]
+        }
+      ],
+      "len": "50",
+      "pos": "e,274.66,563.89 190.34,506.62 209.5,537.48 223.58,546.26 265.08,560.62",
+      "region": "Americas"
+    },
+    {
+      "_gvid": 12,
+      "tail": 5,
+      "head": 10,
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[165.420,406.020],[167.050,351.920],[169.930,325.560],[180.900,301.470]]
+        }
+      ],
+      "_hdraw_": 
+      [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "P",
+          "points": [[184.150,302.800],[185.520,292.290],[177.900,299.650]]
+        }
+      ],
+      "len": "50",
+      "pos": "e,185.52,292.29 165.42,406.02 167.05,351.92 169.93,325.56 180.9,301.47",
+      "region": "Americas"
+    },
+    {
+      "_gvid": 13,
+      "tail": 5,
+      "head": 11,
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[189.040,412.240],[239.130,317.580],[255.630,294.660],[305.330,266.260]]
+        }
+      ],
+      "_hdraw_": 
+      [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "P",
+          "points": [[307.270,269.190],[314.300,261.260],[303.860,263.070]]
+        }
+      ],
+      "len": "50",
+      "pos": "e,314.3,261.26 189.04,412.24 239.13,317.58 255.63,294.66 305.33,266.26",
+      "region": "Americas"
+    },
+    {
+      "_gvid": 14,
+      "tail": 5,
+      "head": 12,
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[128.650,419.220],[75.500,358.310],[60.360,338.060],[47.450,304.700]]
+        }
+      ],
+      "_hdraw_": 
+      [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "P",
+          "points": [[50.570,303.060],[43.830,294.890],[44.010,305.490]]
+        }
+      ],
+      "len": "50",
+      "pos": "e,43.833,294.89 128.65,419.22 75.502,358.31 60.359,338.06 47.446,304.7",
+      "region": "Americas"
+    },
+    {
+      "_gvid": 15,
+      "tail": 5,
+      "head": 16,
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[146.900,510.650],[127.840,568.770],[126.270,585.720],[135.030,623.050]]
+        }
+      ],
+      "_hdraw_": 
+      [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "P",
+          "points": [[131.690,624.140],[137.480,633.020],[138.490,622.470]]
+        }
+      ],
+      "len": "50",
+      "pos": "e,137.48,633.02 146.9,510.65 127.84,568.77 126.27,585.72 135.03,623.05",
+      "region": "Americas"
+    },
+    {
+      "_gvid": 16,
+      "tail": 5,
+      "head": 19,
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[120.450,428.750],[67.420,390.920],[53.800,379.010],[34.970,353.460]]
+        }
+      ],
+      "_hdraw_": 
+      [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "P",
+          "points": [[37.590,351.120],[28.910,345.060],[31.910,355.220]]
+        }
+      ],
+      "len": "50",
+      "pos": "e,28.905,345.06 120.45,428.75 67.424,390.92 53.795,379.01 34.965,353.46",
+      "region": "Americas"
+    },
+    {
+      "_gvid": 17,
+      "tail": 6,
+      "head": 5,
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[321.600,474.910],[271.600,478.560],[245.740,480.000],[225.540,477.870]]
+        }
+      ],
+      "_hdraw_": 
+      [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "P",
+          "points": [[225.790,474.370],[215.390,476.420],[224.800,481.300]]
+        }
+      ],
+      "len": "50",
+      "pos": "e,215.39,476.42 321.6,474.91 271.6,478.56 245.74,480 225.54,477.87",
+      "region": "Europe"
+    },
+    {
+      "_gvid": 18,
+      "tail": 7,
+      "head": 6,
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[309.710,557.670],[327.600,542.770],[333.070,534.130],[339.260,507.350]]
+        }
+      ],
+      "_hdraw_": 
+      [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "P",
+          "points": [[342.690,508.060],[341.410,497.540],[335.850,506.560]]
+        }
+      ],
+      "len": "50",
+      "pos": "e,341.41,497.54 309.71,557.67 327.6,542.77 333.07,534.13 339.26,507.35",
+      "region": "Americas"
+    },
+    {
+      "_gvid": 19,
+      "tail": 8,
+      "head": 9,
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[330.610,43.210],[343.790,47.350],[352.300,54.390],[367.330,71.130]]
+        }
+      ],
+      "_hdraw_": 
+      [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "P",
+          "points": [[364.970,73.740],[374.210,78.910],[370.210,69.100]]
+        }
+      ],
+      "len": "50",
+      "pos": "e,374.21,78.914 330.61,43.211 343.79,47.354 352.3,54.39 367.33,71.127",
+      "region": "Europe"
+    },
+    {
+      "_gvid": 20,
+      "tail": 10,
+      "head": 8,
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[239.110,173.830],[251.890,121.100],[258.650,99.120],[270.260,77.010]]
+        }
+      ],
+      "_hdraw_": 
+      [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "P",
+          "points": [[273.400,78.580],[275.170,68.130],[267.270,75.190]]
+        }
+      ],
+      "len": "50",
+      "pos": "e,275.17,68.129 239.11,173.83 251.89,121.1 258.65,99.117 270.26,77.011",
+      "region": "Europe"
+    },
+    {
+      "_gvid": 21,
+      "tail": 10,
+      "head": 9,
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[263.370,184.850],[304.540,130.590],[319.030,119.040],[360.130,102.070]]
+        }
+      ],
+      "_hdraw_": 
+      [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "P",
+          "points": [[361.660,105.220],[369.620,98.230],[359.040,98.730]]
+        }
+      ],
+      "len": "50",
+      "pos": "e,369.62,98.227 263.37,184.85 304.54,130.59 319.03,119.04 360.13,102.07",
+      "region": "Europe"
+    },
+    {
+      "_gvid": 22,
+      "tail": 10,
+      "head": 12,
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[158.360,228.120],[117.780,223.220],[99.780,226.100],[71.250,241.080]]
+        }
+      ],
+      "_hdraw_": 
+      [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "P",
+          "points": [[69.570,238.010],[62.470,245.870],[72.920,244.160]]
+        }
+      ],
+      "len": "50",
+      "pos": "e,62.466,245.87 158.36,228.12 117.78,223.22 99.78,226.1 71.254,241.08",
+      "region": "Europe"
+    },
+    {
+      "_gvid": 23,
+      "tail": 10,
+      "head": 14,
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[287.530,256.000],[312.160,267.130],[327.510,284.990],[361.510,330.130]]
+        }
+      ],
+      "_hdraw_": 
+      [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "P",
+          "points": [[358.790,332.350],[367.600,338.250],[364.390,328.150]]
+        }
+      ],
+      "len": "50",
+      "pos": "e,367.6,338.25 287.53,256 312.16,267.13 327.51,284.99 361.51,330.13",
+      "region": "Europe"
+    },
+    {
+      "_gvid": 24,
+      "tail": 10,
+      "head": 19,
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[158.140,244.980],[96.870,252.980],[80.640,264.120],[37.350,311.160]]
+        }
+      ],
+      "_hdraw_": 
+      [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "P",
+          "points": [[34.630,308.950],[30.460,318.700],[39.790,313.680]]
+        }
+      ],
+      "len": "50",
+      "pos": "e,30.463,318.7 158.14,244.98 96.871,252.98 80.639,264.12 37.353,311.16",
+      "region": "Europe"
+    },
+    {
+      "_gvid": 25,
+      "tail": 11,
+      "head": 8,
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[346.410,197.990],[335.280,127.970],[330.120,103.300],[317.570,77.310]]
+        }
+      ],
+      "_hdraw_": 
+      [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "P",
+          "points": [[320.680,75.700],[313.010,68.380],[314.440,78.880]]
+        }
+      ],
+      "len": "50",
+      "pos": "e,313.01,68.38 346.41,197.99 335.28,127.97 330.12,103.3 317.57,77.311",
+      "region": "Europe"
+    },
+    {
+      "_gvid": 26,
+      "tail": 11,
+      "head": 18,
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[394.760,227.030],[446.630,210.020],[462.800,207.990],[494.420,215.910]]
+        }
+      ],
+      "_hdraw_": 
+      [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "P",
+          "points": [[493.730,219.350],[504.290,218.550],[495.530,212.590]]
+        }
+      ],
+      "len": "50",
+      "pos": "e,504.29,218.55 394.76,227.03 446.63,210.02 462.8,207.99 494.42,215.91",
+      "region": "Europe"
+    },
+    {
+      "_gvid": 27,
+      "tail": 13,
+      "head": 6,
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[467.440,424.190],[446.880,437.660],[432.950,443.390],[379.350,461.790]]
+        }
+      ],
+      "_hdraw_": 
+      [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "P",
+          "points": [[377.970,458.570],[369.640,465.120],[380.240,465.190]]
+        }
+      ],
+      "len": "50",
+      "pos": "e,369.64,465.12 467.44,424.19 446.88,437.66 432.95,443.39 379.35,461.79",
+      "region": "Asia"
+    },
+    {
+      "_gvid": 28,
+      "tail": 13,
+      "head": 14,
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[471.830,393.550],[454.720,373.230],[444.220,368.200],[402.100,357.200]]
+        }
+      ],
+      "_hdraw_": 
+      [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "P",
+          "points": [[402.860,353.780],[392.300,354.680],[401.110,360.560]]
+        }
+      ],
+      "len": "50",
+      "pos": "e,392.3,354.68 471.83,393.55 454.72,373.23 444.22,368.2 402.1,357.2",
+      "region": "Asia"
+    },
+    {
+      "_gvid": 29,
+      "tail": 15,
+      "head": 10,
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[443.180,267.790],[377.800,226.610],[357.800,216.890],[299.430,224.690]]
+        }
+      ],
+      "_hdraw_": 
+      [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "P",
+          "points": [[298.710,221.260],[289.310,226.160],[299.710,228.190]]
+        }
+      ],
+      "len": "50",
+      "pos": "e,289.31,226.16 443.18,267.79 377.8,226.61 357.8,216.89 299.43,224.69",
+      "region": "Africa"
+    },
+    {
+      "_gvid": 30,
+      "tail": 15,
+      "head": 11,
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[444.680,265.260],[429.630,251.990],[420.690,245.880],[406.800,243.130]]
+        }
+      ],
+      "_hdraw_": 
+      [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "P",
+          "points": [[407.230,239.650],[396.840,241.760],[406.280,246.590]]
+        }
+      ],
+      "len": "50",
+      "pos": "e,396.84,241.76 444.68,265.26 429.63,251.99 420.69,245.88 406.8,243.13",
+      "region": "Africa"
+    },
+    {
+      "_gvid": 31,
+      "tail": 15,
+      "head": 13,
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[467.550,290.960],[490.810,324.350],[494.240,334.890],[489.780,379.040]]
+        }
+      ],
+      "_hdraw_": 
+      [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "P",
+          "points": [[486.300,378.670],[488.710,388.990],[493.260,379.420]]
+        }
+      ],
+      "len": "50",
+      "pos": "e,488.71,388.99 467.55,290.96 490.81,324.35 494.24,334.89 489.78,379.04",
+      "region": "Africa"
+    },
+    {
+      "_gvid": 32,
+      "tail": 17,
+      "head": 6,
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[459.270,360.840],[441.150,394.010],[432.150,403.500],[373.230,451.300]]
+        }
+      ],
+      "_hdraw_": 
+      [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "P",
+          "points": [[370.960,448.640],[365.390,457.650],[375.370,454.080]]
+        }
+      ],
+      "len": "50",
+      "pos": "e,365.39,457.65 459.27,360.84 441.15,394.01 432.15,403.5 373.23,451.3",
+      "region": "Africa"
+    },
+    {
+      "_gvid": 33,
+      "tail": 17,
+      "head": 15,
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[469.540,329.510],[471.330,315.970],[471.720,308.370],[469.990,301.390]]
+        }
+      ],
+      "_hdraw_": 
+      [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "P",
+          "points": [[473.130,299.800],[466.240,291.750],[466.600,302.340]]
+        }
+      ],
+      "len": "50",
+      "pos": "e,466.24,291.75 469.54,329.51 471.33,315.97 471.72,308.37 469.99,301.39",
+      "region": "Africa"
+    },
+    {
+      "_gvid": 34,
+      "tail": 17,
+      "head": 18,
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[476.190,332.060],[504.350,288.130],[513.230,273.300],[518.260,254.580]]
+        }
+      ],
+      "_hdraw_": 
+      [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "P",
+          "points": [[521.720,255.120],[520.550,244.590],[514.900,253.560]]
+        }
+      ],
+      "len": "50",
+      "pos": "e,520.55,244.59 476.19,332.06 504.35,288.13 513.23,273.3 518.26,254.58",
+      "region": "Africa"
+    }
+  ]
+}

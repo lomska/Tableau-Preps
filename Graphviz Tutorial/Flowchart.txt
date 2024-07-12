@@ -1,0 +1,170 @@
+digraph flowchart {
+          
+          graph [
+          layout=dot
+          splines=ortho
+          ]
+          
+          // NODES
+          
+          // Box Nodes Colored
+          node [
+          fontname="Courier New" 
+          shape=box 
+          style=filled 
+          color="#7678ed44"
+          ]
+          
+          Q01 [label="DO YOU REMEMBER\nTHE PERSON'S NAME?"]
+          Q02 [label="IS IT AN EX?"]
+          Q03 [label="ARE YOU DRUNK?"]
+          Q04 [label="A FRIEND'S EX?"]
+          Q05 [label="DO YOU WANT TO\nREKINDLE AND/OR\nGIVE 'EM WHAT FOR?"]
+          Q06 [label="AN ENEMY OR FRENEMY?"]
+          Q07 [label="ARE YOU IN A\nCONVERTIBLE\nWITH BRAD PITT\nAND/OR RIHANNA?"]
+          Q08 [label="ARE YOU ROBBING A BANK?"]
+          Q09 [label="ARE YOU IN A BATHROBE?"]
+          Q10 [label="IS THERE TIME TO FLEE?"]
+          Q11 [label="COULD YOU PRETEND TO\nGET A CALL ON YOUR CELL?"]
+          Q12 [label="ARE YOU WEARING\nSUNGLASSES?"]
+          
+          // Box Nodes White
+          node [
+          color="#ffffff00"
+          fontsize=18
+          ]
+          
+          // Box Nodes White "Don't say hi"
+          { node [
+          label="Don't\nsay hi." 
+          ]
+            Q05NN Q04YN Q07NN08YN09YN
+          }
+          
+          // Box Nodes White "Say hi"
+          { node [
+          label="Say hi." 
+          ]
+            Q05YY07YY Q09NY
+          }
+          
+          // Circle Nodes
+          node [
+          shape=circle 
+          fixedsize=true
+          ]
+          
+          // "YES" Circle Nodes
+          { node [
+          label="YES"
+          color="#3d348b88"
+          ]
+            Q01Y Q02Y Q03Y Q04Y Q05Y Q06Y
+            Q07Y Q08Y Q09Y Q10Y Q11Y Q12Y
+          }
+          
+          // "NO" Circle Nodes
+          { node [
+          label="NO" 
+          color="#f35b0488"
+          ]
+            Q01N Q02N Q03N Q04N Q05N Q06N
+            Q07N Q08N Q09N Q10N Q11N Q12N
+          }
+          
+          // Ellipse nodes
+          node [
+          color="#f7b80188" 
+          shape=ellipse 
+          fixedsize=false
+          ]
+          
+          Q10YC [
+          label="Run for it."
+          ]
+          Q11YC [
+          label="Hello, doctor.\nWhat are my\ntest results?"
+          ]
+          Q12YC [
+          label="Keep walking."
+          ]
+          Q12NC [
+          label="Address the person using\nan amusing nickname\nsuch as 'Sarge,' 'Slugger,'\nor 'Master Blaster.'"
+          ]
+          
+          // EDGES
+          // "YES" Undirected Edges (no arrow)
+          
+          edge [
+          dir=none 
+          color="#3d348b"
+          ]
+          
+          Q01 -> Q01Y
+          Q02 -> Q02Y
+          Q03 -> Q03Y
+          Q04 -> Q04Y
+          Q05 -> Q05Y
+          Q06 -> Q06Y
+          Q07 -> Q07Y
+          Q08 -> Q08Y
+          Q09 -> Q09Y
+          Q10 -> Q10Y
+          Q11 -> Q11Y
+          Q12 -> Q12Y
+          
+          // "NO" Undirected Edges (no arrow)
+          edge [
+          color="#f35b04"
+          ]
+          
+          Q01 -> Q01N
+          Q02 -> Q02N
+          Q03 -> Q03N
+          Q04 -> Q04N
+          Q05 -> Q05N
+          Q06 -> Q06N
+          Q07 -> Q07N
+          Q08 -> Q08N
+          Q09 -> Q09N
+          Q10 -> Q10N
+          Q11 -> Q11N
+          Q12 -> Q12N
+          
+          // "YES" Directed Edges (arrowed)
+          edge [
+          dir=forward 
+          color="#3d348b"
+          ]
+          
+          Q01Y -> Q02
+          Q02Y -> Q03
+          Q03Y -> Q05 
+          Q06Y -> Q07
+          Q04Y -> Q04YN
+          Q08Y -> Q07NN08YN09YN 
+          Q09Y -> Q07NN08YN09YN [weight=2]
+          Q05Y -> Q05YY07YY
+          Q07Y -> Q05YY07YY
+          Q10Y -> Q10YC
+          Q11Y -> Q11YC
+          Q12Y -> Q12YC
+          
+          // "NO" Directed Edges (arrowed)
+          edge [
+          color="#f35b04"
+          ]
+          
+          Q03N -> Q07 [constraint=false]
+          Q02N -> Q04
+          Q04N -> Q06
+          Q06N -> Q08
+          Q08N -> Q09 
+          Q01N -> Q10
+          Q10N -> Q11
+          Q11N -> Q12
+          Q05N -> Q05NN
+          Q07N -> Q07NN08YN09YN [weight=2]
+          Q09N -> Q09NY
+          Q12N -> Q12NC
+}

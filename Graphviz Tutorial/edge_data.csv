@@ -1,0 +1,36 @@
+,country_source,region_source,country_target,region_target,iso_source,iso_target
+0,Mexico,Americas,Canada,Americas,MX,CA
+1,USA,Americas,Canada,Americas,US,CA
+2,Chile,Americas,China,Asia,CL,CN
+3,Mexico,Americas,Chile,Americas,MX,CL
+4,Peru,Americas,Chile,Americas,PE,CL
+5,Chile,Americas,UK,Europe,CL,GB
+6,Peru,Americas,China,Asia,PE,CN
+7,Peru,Americas,Colombia,Americas,PE,CO
+8,Colombia,Americas,UK,Europe,CO,GB
+9,France,Europe,Italy,Europe,FR,IT
+10,Netherlands,Europe,France,Europe,NL,FR
+11,Spain,Europe,France,Europe,ES,FR
+12,Netherlands,Europe,Germany,Europe,NL,DE
+13,Peru,Americas,Germany,Europe,PE,DE
+14,Israel,Asia,Russia,Europe,IL,RU
+15,South Africa,Africa,Israel,Asia,ZA,IL
+16,Israel,Asia,UK,Europe,IL,GB
+17,Netherlands,Europe,Italy,Europe,NL,IT
+18,Mexico,Americas,Japan,Asia,MX,JP
+19,Peru,Americas,Japan,Asia,PE,JP
+20,Kenya,Africa,Morocco,Africa,KE,MA
+21,Kenya,Africa,South Africa,Africa,KE,ZA
+22,Kenya,Africa,UK,Europe,KE,GB
+23,Mexico,Americas,UK,Europe,MX,GB
+24,Mexico,Americas,USA,Americas,MX,US
+25,Spain,Europe,Morocco,Africa,ES,MA
+26,Peru,Americas,Netherlands,Europe,PE,NL
+27,Netherlands,Europe,Poland,Europe,NL,PL
+28,Netherlands,Europe,Russia,Europe,NL,RU
+29,South Africa,Africa,Netherlands,Europe,ZA,NL
+30,Peru,Americas,Poland,Europe,PE,PL
+31,Peru,Americas,Spain,Europe,PE,ES
+32,UK,Europe,Peru,Americas,GB,PE
+33,Peru,Americas,USA,Americas,PE,US
+34,South Africa,Africa,Spain,Europe,ZA,ES
