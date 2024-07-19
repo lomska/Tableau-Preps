@@ -1,0 +1,26 @@
+digraph GraphName {
+ 
+    SomeNode
+ 
+    node [
+    width=1
+    style=filled
+    shape=circle
+    color="#00ff00"
+    ]
+ 
+    A
+    B
+ 
+    node [
+    color="#ff0000"
+    ]
+ 
+    C
+ 
+    node [
+    shape=square 
+    ]
+ 
+    D
+}

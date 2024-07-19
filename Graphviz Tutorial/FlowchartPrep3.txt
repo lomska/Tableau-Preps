@@ -1,0 +1,12 @@
+digraph GraphName {
+ 
+    A -> B
+ 
+    edge [dir=none]
+    C -> D 
+    E -> F
+ 
+    edge [dir=forward]
+    G -> H 
+ 
+}

@@ -1,0 +1,6 @@
+digraph GraphName {
+    edge [minlen=2]
+
+    a -> b [color="#ff0000"]
+    a -> b [color="#00ff00"]
+}
